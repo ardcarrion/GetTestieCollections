@@ -17,20 +17,20 @@ public class TestArrayDeque {
     }
 
     @Test
-    public void TestStack1() {
+    public void TestDeque1() {
         ArrayDeque<String> deque = new ArrayDeque<>();
         deque.push("Hello world");
         Assert.assertFalse(deque.isEmpty()); // false
     }
     @Test
-    public void TestStack2() {
+    public void TestDeque2() {
         ArrayDeque<String> deque = new ArrayDeque<>();
         deque.push("Hello world");
         deque.pop();
         Assert.assertTrue(deque.isEmpty()); // true
     }
     @Test
-    public void TestStack3() {
+    public void TestDeque3() {
         ArrayDeque<String> deque = new ArrayDeque<>();
         deque.push("Hello world");
         deque.peek();
